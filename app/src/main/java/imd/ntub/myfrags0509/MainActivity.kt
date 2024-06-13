@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                     1 -> SecondFragment.newInstance()
                     2 -> ThirdFragment.newInstance(
                         "11056051 梁詔恩" +
-                                "\n 11056036 徐湘婷" + "\n 11056015 許有騫"
+                                "\b 11056036 徐湘婷" + "\n 11056015 許有騫"
                     )
 
                     else -> firstFragment
