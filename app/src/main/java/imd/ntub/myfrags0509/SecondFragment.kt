@@ -76,7 +76,7 @@ class SecondFragment : Fragment() {
                 imageViewContact.setImageResource(R.drawable.icon)
                 (activity as MainActivity).firstFragment.refreshContacts()
             } else {
-                Toast.makeText(requireContext(), "Please fill in all fields", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), "沒有朋友不要新增啦", Toast.LENGTH_SHORT).show()
             }
         }
 
